@@ -1,0 +1,85 @@
+body {
+    background-image: url("backgroundImage.jpg");
+
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333333;
+    position: relative;
+    height: 46px;
+
+}
+
+li {
+    float: left;
+}
+
+#home {
+    vertical-align: top;
+    height: 46px;
+    width: 46px;
+
+}
+
+#searchBar {
+    background-color: lightgrey;
+    height: 40px;
+    border: solid;
+    border-color: #333333;
+    border-width: 2px;
+    text-align: left;
+    font-size: large;
+
+}
+
+#searchButton {
+    vertical-align: middle;
+    padding: 13px;
+    height: 20px;
+    width: 20px;
+}
+
+#title {
+    text-align: center;
+    color:#333333;
+
+}
+
+#subtitle {
+    text-align: center;
+    color:#333333;
+}
+
+li.homeMenuButton a {
+    display: block;
+    horiz-align: left;
+
+}
+
+li.otherMenuButton a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.searchMenuButton a {
+    display: block;
+    horiz-align: left;
+}
+
+li.otherMenuButton a:hover {
+    background-color: sandybrown;
+
+}
+
+li.checkedButton {
+    background-color: sandybrown;
+}
+
+li.searchMenuButton a:hover {
+    background-color: grey;
+}
