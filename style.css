@@ -6,8 +6,7 @@ body {
 ul {
     list-style-type: none;
     overflow: hidden;
-    background-color: blue;
-    padding: 20px;
+    background-color: #3333;
     position: relative;
     height: 46px;
 
@@ -28,7 +27,7 @@ li {
     background-color: lightgrey;
     height: 40px;
     border: solid;
-    border-color: #333333;
+    border-color: transparent;
     border-width: 2px;
     text-align: left;
     font-size: large;
