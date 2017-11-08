@@ -6,7 +6,8 @@ body {
 ul {
     list-style-type: none;
     overflow: hidden;
-    background-color: #333333;
+    background-color: blue;
+    padding: 20px;
     position: relative;
     height: 46px;
 
@@ -43,13 +44,13 @@ li {
 
 #title {
     text-align: center;
-    color:#333333;
+    color: #333333;
 
 }
 
 #subtitle {
     text-align: center;
-    color:#333333;
+    color: #333333;
 }
 
 li.homeMenuButton a {
