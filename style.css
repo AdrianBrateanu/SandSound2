@@ -5,10 +5,12 @@ body {
 
 ul {
     list-style-type: none;
-    overflow: hidden;
     background-color: #3333;
     position: relative;
     height: 46px;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-style: auto;
 }
 
 li {
