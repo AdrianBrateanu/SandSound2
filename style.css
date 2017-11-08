@@ -9,7 +9,6 @@ ul {
     background-color: #3333;
     position: relative;
     height: 46px;
-
 }
 
 li {
@@ -24,7 +23,8 @@ li {
 }
 
 #searchBar {
-    background-color: lightgrey;
+    background-color: white;
+    opacity:0.5;
     height: 40px;
     border: solid;
     border-color: transparent;
