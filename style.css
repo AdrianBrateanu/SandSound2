@@ -24,14 +24,6 @@ li {
 
 }
 
-#aboutUsParagraph {
-    text-indent: 30px;
-    width: 40%;
-    font-size: 20px;
-    text-align: justify;
-    line-height: 150%;
-}
-
 #motto {
     font-size: 15px;
     text-align: right;
@@ -40,11 +32,12 @@ li {
 }
 
 #aboutUsImg {
-    height: 300px;
-    width: 500px;
-    position: relative;
-    right: -60%;
-    top: 0%;
+    height: 30%;
+    width: 25%;
+    position: absolute;
+    right: 0%;
+    top: 23%;
+
 }
 
 #aboutUsTitle {
@@ -52,6 +45,21 @@ li {
     text-decoration: underline;
     text-align: center;
     font-family: Cambria;
+}
+
+#contactButton {
+    background-color: red;
+    border: none;
+    color: lightgrey;
+    padding: 15px 32px;
+    border-radius: 25%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
 }
 
 #searchBar {
@@ -83,6 +91,18 @@ li {
 #subtitle {
     text-align: center;
     color: #333333;
+}
+
+p.aboutUsParagraph {
+    text-indent: 30px;
+    width: 50%;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 150%;
+}
+
+#paragraphAlign {
+    vertical-align: 30%;
 }
 
 li.homeMenuButton a {
