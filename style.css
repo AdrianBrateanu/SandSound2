@@ -59,8 +59,8 @@ li {
     border: transparent;
     font-family: "Times New Roman";
     box-shadow: 0px 0px 20px 20px sandybrown;
-    left:10%;
-
+    left: 10%;
+    top: 59%;
 
 }
 
@@ -128,13 +128,16 @@ li.searchMenuButton a {
 
 li.otherMenuButton a:hover {
     background-color: sandybrown;
+    opacity: 0.5;
 
 }
 
 li.checkedButton {
     background-color: sandybrown;
+    opacity:0.5;
 }
 
 li.searchMenuButton a:hover {
     background-color: grey;
+    opacity: 0.5;
 }
