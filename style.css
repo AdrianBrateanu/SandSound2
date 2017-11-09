@@ -24,9 +24,30 @@ li {
 
 }
 
+#aboutUsParagraph {
+    text-indent: 30px;
+    width: 35%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#motto {
+    font-size: 15px;
+    text-align: right;
+    vertical-align: bottom;
+
+}
+
+#aboutUsTitle {
+    color: #333333;
+    text-decoration: underline;
+    text-align: center;
+    font-family: Cambria;
+}
+
 #searchBar {
     background-color: white;
-    opacity:0.5;
+    opacity: 0.5;
     height: 40px;
     border: solid;
     border-color: transparent;
@@ -46,6 +67,7 @@ li {
 #title {
     text-align: center;
     color: #333333;
+    font-family: Cambria;
 
 }
 
